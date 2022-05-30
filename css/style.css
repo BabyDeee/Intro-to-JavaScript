@@ -43,15 +43,15 @@ ul li:hover{
         background: #FEF7FF;
         box-shadow: 39px 20px 18px #e0e0e0, 20px 30px 40px #B0A8B9;
         width: 300px; 
-        height: 450px;
+        height: 450px !important;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        padding: 60px 40px;
-        margin: 80px 0;
+        padding: 30px;
         text-align: center;
     }
+    
     ul li{
         list-style: none;
         font-size: 20px;
@@ -60,5 +60,12 @@ ul li:hover{
 
     .content h1{
         font-size: 30px;
+    }
+}
+@media (min-width:481px) and (max-width:769px){
+    .content{
+        margin-top: 80px;
+        margin-bottom: 120px;
+        min-height: 500px;
     }
 }

@@ -73,6 +73,5 @@ let Nutjob2 ={
 let BMI2Merit = Merit2.mass / Merit2.height ** 2 ;
 let BMI2Nutjob = Nutjob2.mass / Nutjob2.height ** 2;
 console.log(BMI2Merit, BMI2Nutjob);
-// let meritHigherBMI = true;
 console.log(meritHigherBMI);
 
